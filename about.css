@@ -1,0 +1,182 @@
+/* Base Styles */
+body {
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif; /* Elegant noir serif for body text */
+    background-color: #000000; /* Pure black background */
+    color: #d4b485; /* White text */
+}
+
+/* Report section link styling */
+.report-list a {
+    color: #d4b485; /* Dark Oak color */
+}
+
+.report-list a:hover {
+    color: #ffffff; /* White on hover */
+}
+
+.report-list a:visited {
+    color: #d4b485; /* Ensure visited links stay the same color */
+}
+
+/* Link styling for the cards */
+.card a {
+    color: #d4b485;  /* Dark Oak color */
+    text-decoration: none; /* No underline */
+    transition: color 0.3s ease;
+}
+
+.card a:hover {
+    color: #ffffff;  /* White on hover */
+}
+
+.card a:visited {
+    color: #d4b485;  /* Keep visited links Dark Oak */
+}
+
+.card a:active {
+    color: #d4b485;  /* Active link stays Dark Oak */
+}
+
+/* Header Styles */
+header {
+    position: relative;
+    background-color: #000000; /* Black background for header */
+    color: #ffffff; /* White text for header */
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Black overlay for darkening */
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 4rem;
+    margin-top: 150px;
+    z-index: 1;
+    color: #A65E2E; /* White for heading */
+    filter: brightness(1.2); /* Brighten the image slightly */
+    position: relative;
+}
+
+header p {
+    font-size: 1.5rem;
+    font-family: 'Special Elite', cursive; /* Typewriter noir effect */
+    z-index: 1;
+    color: #d4b485; /* Dark Oak text for subheading */
+    filter: brightness(1.2); /* Brighten the image slightly */
+}
+
+/* Brighten Image */
+.header-image {
+    display: block;
+    margin: 20px auto;
+    width: 50%;  /* Adjust the width as needed */
+    max-width: 400px;  /* Ensures it doesn't stretch too wide */
+    border: 2px solid #d4b485;  /* Dark Oak border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add some shadow for depth */
+    filter: brightness(1.2); /* Brighten the image slightly */
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #202324; /* Dark Brown for navigation bar */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d4b485; /* White text for navigation links */
+    font-size: 1.2rem;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d4b485; /* Dark Oak on hover */
+}
+
+/* Main Content Styles */
+.intro {
+    text-align: center;
+    margin: 50px auto;
+    padding: 0 20px;
+    color: #d4b485; /* Dark Oak for intro text */
+}
+
+h2 {
+    font-family: 'League Spartan', sans-serif; /* Typewriter effect for noir vibe */
+    font-size: 2.5rem;
+    color: #A65E2E; /* White for intro headings */
+}
+
+.intro p {
+    font-family: 'League Spartan', sans-serif; /* Bold for intro paragraph */
+    font-size: 1.2rem;
+    color: #d4b485; /* Dark Oak for intro paragraph */
+}
+
+/* Card Section */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.card {
+    background-color: #4a3c2c; /* Dark Brown for card background */
+    border: 2px solid #d4b485; /* Dark Oak border for cards */
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card h3 {
+    font-family: 'League Spartan', sans-serif; /* Bold headings for cards */
+    font-size: 1.8rem;
+    color: #d4b485; /* White for card titles */
+}
+
+.card p {
+    color: #A65E2E; /* Dark Oak for card text */
+    font-family: 'Cormorant Garamond', serif; /* Elegant serif for card content */
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Dark shadow for hover effect */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #202324; /* Dark Brown background for footer */
+    text-align: center;
+    padding: 20px;
+    font-family: 'Special Elite', cursive; /* Typewriter style for footer */
+    color: #A65E2E; /* White for footer text */
+}
+
+/* Styles for the image under the text */
+.header-image {
+    display: block;
+    margin: 20px auto;
+    width: 50%;  /* Adjust the width as needed */
+    max-width: 400px;  /* Ensures it doesn't stretch too wide */
+    border: 2px solid #d4b485;  /* Dark Oak border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add some shadow for depth */
+}
+
