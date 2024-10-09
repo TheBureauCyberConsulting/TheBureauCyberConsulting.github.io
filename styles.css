@@ -71,8 +71,6 @@ header h1 {
 
 header p {
     position: absolute; /* Enables you to position it within the header */
-    
-    left: 50%; /* Centers horizontally */
     font-size: 1.5rem;
     font-family: 'Special Elite', cursive; /* Typewriter noir effect */
     z-index: 1;
