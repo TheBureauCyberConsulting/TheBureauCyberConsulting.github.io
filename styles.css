@@ -68,17 +68,12 @@ header h1 {
     filter: brightness(1.2); /* Brighten the image slightly */
     position: relative;
 }
-header {
-    position: relative;
-    text-align: center; /* This will center the text horizontally */
-
-p {
-    font-size: 24px;
-    position: absolute; /* Enables you to position it within the header */
-    top: 50%; /* Centers vertically */
-    left: 50%; /* Centers horizontally */
-    transform: translate(-50%, -50%); /* Adjusts position to the exact center */
-    color: #A65E2E; /* Optional: change text color */
+header p {
+    font-size: 1.5rem;
+    font-family: 'Special Elite', cursive; /* Typewriter noir effect */
+    z-index: 1;
+    color: #A65E2E; /* Dark Oak text for subheading */
+    filter: brightness(1.2); /* Brighten the image slightly */
 }
 
 /* Brighten Image */
