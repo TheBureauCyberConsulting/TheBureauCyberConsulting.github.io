@@ -58,24 +58,30 @@ header .overlay {
     background-color: rgba(0, 0, 0, 0.6); /* Black overlay for darkening */
 }
 
+/* Styling for "The Bureau" */
 header h1 {
     text-align: center;
     font-family: 'Cinzel', serif;
     font-size: 4rem;
     margin-top: 150px;
+    margin-bottom: 0;  /* Remove bottom margin */
     z-index: 1;
-    color: #A65E2E; /* White/Cream for heading */
-    filter: brightness(1.2); /* Brighten the image slightly */
+    color: #A65E2E; /* Dark Oak for main title */
+    filter: brightness(1.2);
     position: relative;
 }
 
-header p {
-    font-size: 1.5rem;
-    font-family: 'Special Elite', cursive; /* Typewriter noir effect */
-    z-index: 1;
-    color: #A65E2E; /* Dark Oak text for subheading */
-    filter: brightness(1.2); /* Brighten the image slightly */
+/* Styling for "Cyber Consulting" */
+header h2 {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    margin-top: 0;  /* Remove top margin */
+    color: #d4b485; /* Lighten the color for subtitle */
+    filter: brightness(1.2);
+    position: relative;
 }
+
 
 /* Brighten Image */
 .header-image {
