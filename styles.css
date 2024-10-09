@@ -70,7 +70,9 @@ header h1 {
 }
 
 header p {
-    text-align: center;
+    position: absolute; /* Enables you to position it within the header */
+    top: 50%; /* Centers vertically */
+    left: 50%; /* Centers horizontally */
     font-size: 1.5rem;
     font-family: 'Special Elite', cursive; /* Typewriter noir effect */
     z-index: 1;
