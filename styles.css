@@ -6,9 +6,6 @@ body {
     color: #FF8C00; /* White/Cream text */
 }
 
-
-
-
 /* Report section link styling */
 .report-list a {
     color: #d4b485; /* Dark Oak color */
@@ -41,11 +38,14 @@ body {
     color: #d4b485;  /* Active link stays Dark Oak */
 }
 
-
 /* Header Styles */
 header {
     position: relative;
-    background-color: #000000; /* Black background for header */
+    background-image: url('images/underworld-image.jpg'); /* Your main image as background */
+    background-size: cover; /* Ensure the image covers the entire header */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    height: 100vh; /* Full screen height for the header */
     color: #ffffff; /* White text for header */
 }
 
@@ -82,19 +82,6 @@ header h2 {
     position: relative;
 }
 
-
-/* Brighten Image */
-.header-image {
-    display: block;
-    margin: 20px auto;
-    width: 50%;  /* Adjust the width as needed */
-    max-width: 400px;  /* Ensures it doesn't stretch too wide */
-    border: 2px solid #d4b485;  /* Dark Oak border */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add some shadow for depth */
-    filter: brightness(1.2); /* Brighten the image slightly */
-}
-
-
 /* Navigation Styles */
 nav ul {
     list-style: none;
@@ -117,7 +104,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: ##e0e0e0; /* Dark Oak on hover */
+    color: #e0e0e0; /* Dark Oak on hover */
 }
 
 /* Main Content Styles */
@@ -129,9 +116,9 @@ nav ul li a:hover {
 }
 
 .intro h2 {
-   font-family: 'Special Elite', cursive; /* Typewriter effect for noir vibe */
+    font-family: 'Special Elite', cursive; /* Typewriter effect for noir vibe */
     font-size: 2.5rem;
-    color: ##e0e0e0; /* White/Cream for intro headings */
+    color: #e0e0e0; /* White/Cream for intro headings */
 }
 
 .intro p {
@@ -157,7 +144,7 @@ nav ul li a:hover {
 }
 
 .card h3 {
-     font-family: 'League Spartan', sans-serif; /* Bold headings for cards */
+    font-family: 'League Spartan', sans-serif; /* Bold headings for cards */
     font-size: 1.8rem;
     color: #d4b485; /* White/Cream for card titles */
 }
@@ -172,9 +159,6 @@ nav ul li a:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Dark shadow for hover effect */
 }
 
-
-
-
 /* Footer Styles */
 footer {
     background-color: #333333; /* Dark Brown background for footer */
@@ -183,14 +167,3 @@ footer {
     font-family: 'Special Elite', cursive; /* Typewriter style for footer */
     color: #A65E2E; /* White/Cream for footer text */
 }
-
-/* Styles for the image under the text */
-.header-image {
-    display: block;
-    margin: 20px auto;
-    width: 50%;  /* Adjust the width as needed */
-    max-width: 400px;  /* Ensures it doesn't stretch too wide */
-    border: 2px solid #d4b485;  /* Dark Oak border */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add some shadow for depth */
-}
-
